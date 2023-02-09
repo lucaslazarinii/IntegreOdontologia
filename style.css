@@ -1,2 +1,12 @@
 @import url(styles/reset.css);
 @import url(styles/header.css);
+
+:root {
+    --branco: #FFFFFF;
+    --cinza: #454545;
+}
+
+body {
+    background-color: #F3F3F3;
+    font-family: 'Lora', serif;
+}

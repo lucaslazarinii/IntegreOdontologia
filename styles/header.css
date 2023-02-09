@@ -1,16 +1,77 @@
+/*
+HEADER CSS
+*/
+
 .header {
     display: flex;
-    flex-direction: row;
+    background-color: var(--branco);
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Inter', serif;
+    padding: 0.5em 1em;
+    font-size: 0.7em;
+    gap: 5px;
+    position: absolute;
+    width: 100vw;
 }
 
 .header__list {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px;
 }
 
-.header__link {
+.header__link{
     text-decoration: none;
-    color: black;
+    color: var(--cinza);
+    text-transform: uppercase;
+}
+
+.header__cto {
+    text-decoration: none;
+    background-color: #8A92A5;
+    color: var(--branco);
+    text-transform: uppercase;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.7em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+}
+
+/*
+SIDE MENU CSS
+*/
+
+.side__menu {
+    width: 75vw;
+    background-color: var(--branco);
+    font-family: 'Inter', serif;
+    height: 100vh;
+    position: absolute;
+    padding: 0.5em 1em;
+    transition: 700ms;
+    left: 0vw;
+}
+
+.side__menu-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.side__menu-links {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 1em 0;
+}
+
+.hide-menu {
+    left: -100vw;
+    transition: 700ms;
+}
+
+.logo {
+    width: 40vw;
 }
