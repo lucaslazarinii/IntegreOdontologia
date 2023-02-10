@@ -1,10 +1,13 @@
 @import url(styles/reset.css);
 @import url(styles/header.css);
 @import url(styles/banner.css);
+@import url(styles/swiper.css);
+@import url(styles/body.css);
 
 :root {
     --branco: #FFFFFF;
     --cinza: #454545;
+    --azul: #8290B0;
 }
 
 body {

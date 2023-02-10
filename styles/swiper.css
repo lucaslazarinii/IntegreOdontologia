@@ -1,0 +1,25 @@
+.swiper {
+    margin-top: 1em;
+}
+
+.swiper-pagination {
+    position: initial !important;
+    margin: 0.5em 0;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet {
+    border: 2px solid black !important;
+    background: var(--branco) !important;
+    opacity: 100% !important;
+}
+
+.swiper-pagination-bullet-active {
+    border: 2px solid black;
+    background: black !important;
+}

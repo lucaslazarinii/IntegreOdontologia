@@ -7,3 +7,4 @@ for (let i = 0; i < Botoes.length; i++) {
         MenuLateral.classList.toggle('hide-menu')
     }
 }
+
