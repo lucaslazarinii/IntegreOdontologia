@@ -12,7 +12,7 @@ HEADER CSS
     font-size: 0.7em;
     gap: 5px;
     position: absolute;
-    width: 100vw;
+    width: 100%;
 }
 
 .header__list {
