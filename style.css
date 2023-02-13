@@ -3,6 +3,7 @@
 @import url(styles/banner.css);
 @import url(styles/swiper.css);
 @import url(styles/body.css);
+@import url(styles/cards.css);
 
 :root {
     --branco: #FFFFFF;

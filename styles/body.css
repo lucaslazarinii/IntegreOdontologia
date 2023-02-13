@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-.about-us-section {
+.about-us {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,12 +15,13 @@
     font-weight: bold;
     text-align: center;
     margin: 1em 0 0.5em;
-    font-size: 1.3em;
+    font-size: 1.0em;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 375px) {
     .section-title {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 }
 
@@ -29,5 +30,9 @@
     font-family: 'Roboto', serif;
     line-height: 20px;
     font-size: 0.9em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.0em;
+}
+
+.testimonials {
+    margin: 2em 0;
 }

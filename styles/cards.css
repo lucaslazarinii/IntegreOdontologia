@@ -1,0 +1,13 @@
+.testimonials-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--branco);
+    width: 85%;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.25);
+    padding: 1em;
+    font-family: 'Roboto', serif;
+    line-height: 1.1em;
+}
