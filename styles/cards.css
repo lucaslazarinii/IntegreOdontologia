@@ -1,4 +1,4 @@
-.testimonials-card {
+.testimonials-card, .dentists-card {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -10,4 +10,24 @@
     padding: 1em;
     font-family: 'Roboto', serif;
     line-height: 1.1em;
+}
+
+.profile-picture {
+    width: 50%;
+}
+
+.dentists-card {
+    justify-items: center;
+    align-items: center;
+}
+
+.dentist-name {
+    color: var(--azul-escuro);
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 1em 0;
+}
+
+.dentist-desc {
+    margin: 0 0 1em;
 }
