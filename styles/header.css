@@ -12,7 +12,7 @@ HEADER CSS
     font-size: 0.7em;
     gap: 5px;
     width: 100vw;
-    z-index: 1;
+    z-index: 5;
     box-sizing: border-box;
 }
 
@@ -54,7 +54,7 @@ SIDE MENU CSS
     padding: 0.5em 1em;
     transition: 700ms;
     left: 0vw;
-    z-index: 2;
+    z-index: 5;
 }
 
 .side__menu-links {
