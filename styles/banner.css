@@ -14,7 +14,7 @@
 
 .banner-cont {
     z-index: 2;
-    padding: 1em;
+    padding: 0.7em;
     box-sizing: border-box;
     color: var(--branco);
     display: flex;
@@ -25,4 +25,19 @@
     align-items: center;
     text-align: center;
     text-transform: uppercase;
+}
+
+.banner-title {
+    font-size: 1.2em;
+}
+
+.banner-sub {
+    font-weight: 300;
+}
+
+.banner-cto {
+    border: solid 0.5px var(--branco);
+    padding: 0.4em 1.5em;
+    border-radius: 25px;
+    font-weight: 300;
 }
