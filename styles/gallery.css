@@ -1,0 +1,6 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}

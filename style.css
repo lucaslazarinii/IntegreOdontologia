@@ -4,19 +4,26 @@
 @import url(styles/swiper.css);
 @import url(styles/body.css);
 @import url(styles/cards.css);
+@import url(styles/services.css);
+@import url(styles/gallery.css);
 
 :root {
     --branco: #FFFFFF;
     --cinza: #454545;
     --azul: #8290B0;
     --azul-escuro: #535C71;
+    --fundo: #F3F3F3;
 }
 
 body {
-    background-color: #F3F3F3;
+    background-color: var(--fundo);
     font-family: 'Lora', serif;
 }
 
 .map {
     width: 100%;
+}
+
+.space {
+    margin-top: 58px;
 }

@@ -14,6 +14,8 @@ HEADER CSS
     width: 100vw;
     z-index: 5;
     box-sizing: border-box;
+    position: fixed;
+    top: 0;
 }
 
 .header__list {
@@ -50,11 +52,11 @@ SIDE MENU CSS
     background-color: var(--branco);
     font-family: 'Inter', serif;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     padding: 0.5em 1em;
     transition: 700ms;
     left: 0vw;
-    z-index: 5;
+    z-index: 4;
 }
 
 .side__menu-links {
@@ -64,7 +66,7 @@ SIDE MENU CSS
     padding: 1em 0;
 }
 
-.hide-menu {
+.hide {
     left: -100vw;
     transition: 700ms;
 }
