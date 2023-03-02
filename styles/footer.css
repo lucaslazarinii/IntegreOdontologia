@@ -1,0 +1,31 @@
+.footer {
+    background-color: var(--azul);
+    padding: 1em;
+    font-family: 'Roboto', serif;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    color: var(--branco);
+}
+
+.footer-address {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.footer-header {
+    font-weight: bold;
+}
+
+.footer-icons {
+    display: flex;
+    width: 40%;
+}
+
+.icons {
+    width: 50%;
+}

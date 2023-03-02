@@ -6,6 +6,7 @@
 @import url(styles/cards.css);
 @import url(styles/services.css);
 @import url(styles/gallery.css);
+@import url(styles/footer.css);
 
 :root {
     --branco: #FFFFFF;

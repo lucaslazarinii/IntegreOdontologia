@@ -8,22 +8,6 @@ for (let i = 0; i < Botoes.length; i++) {
     }
 };
 
-const Services = document.querySelectorAll('.service-item')
-const ServicesTitle = document.querySelectorAll('.service-title'); 
-const ServicesDesc = document.querySelectorAll('.service-desc');
-
-for (let i = 0; i < Services.length; i++) {
-    const Service = Services[i]
-    const ServiceTitle = ServicesTitle[i]
-    const ServiceDesc = ServicesDesc[i]
-    const effects = ['teste']
-    for (let j = 0; j < effects.length; j++) {
-        ServiceTitle.addEventListener('click', function () {
-            ServiceDesc.classList.toggle('hide-service')
-            Service.classList.toggle(effects[j])
-    })
-}}
-
 var acc = document.getElementsByClassName("accordion");
 var i;
 
