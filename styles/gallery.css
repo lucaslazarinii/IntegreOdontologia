@@ -3,4 +3,19 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    padding: 1em 0;
+}
+
+.gallery-images {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 1em 0;
+}
+
+.gallery-images img {
+    width: 100vw;
+    padding: 0 1em;
+    box-sizing: border-box;
+    border-radius: 50px;
 }
