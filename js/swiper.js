@@ -12,3 +12,15 @@ const swiper = new Swiper('.swiper', {
     },
   
   });
+
+  const swiper1 = new Swiper('.swiper1', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: false,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+  });
